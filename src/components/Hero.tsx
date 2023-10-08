@@ -2,7 +2,7 @@ import me from "/me.png";
 
 export const Hero = () => {
   return (
-    <section className="flex flex-col-reverse lg:flex-row">
+    <section className="mb-16 flex flex-col-reverse lg:flex-row">
       <div className="flex grow justify-center">
         <img src={me} alt="Tomasz Jurek" />
       </div>
@@ -18,7 +18,7 @@ export const Hero = () => {
           <button className="mb-6 rounded-full bg-cyan-600 px-6 py-2 uppercase">
             Contact me
           </button>
-          <button className="relative ml-6 px-4 py-2 uppercase before:absolute before:bottom-0 before:left-1/2 before:h-1 before:w-0 before:-translate-x-1/2 before:bg-yellow-300 before:transition-all hover:before:w-4/5 hover:before:transition-all">
+          <button className="relative ml-6 px-4 py-2 uppercase before:absolute before:bottom-0 before:left-1/2 before:h-1 before:w-1/3 before:-translate-x-1/2 before:bg-yellow-300 before:transition-all hover:before:w-4/5 hover:before:transition-all">
             Download CV
           </button>
         </div>

@@ -4,8 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
-  background-color: #050624;
-  color: #e3e3e3;
-  font-family: "Outfit";
+:root {
+  --themeBgColor: #050624;
+  --themeTextColor: #e3e3e3;
+  --themeFontFamily: "Outfit";
+}
+
+body {
+  background-color: var(--themeBgColor);
+  color: var(--themeTextColor);
+  font-family: var(--themeFontFamily);
 }
